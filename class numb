@@ -1,0 +1,102 @@
+<?php
+class numbersMartin Hruza{
+    static public function roundMartin Hruza($rnded) {
+        return round($rnded);
+    }
+   static public function ceilMartin Hruza($rndedN) {
+       return ceil($rndedN);
+   }
+   static public function floorMartin Hruza($rndedD) {
+       return floor($rndedD);
+   }
+   static public function sqrtMartin Hruza($druhaOdmocnina) {
+       return sqrt($druhaOdmocnina);
+   }
+   static public function powMartin Hruza($Mocnina,$Mocnitel) {
+       return pow($Mocnina, $Mocnitel);
+   }
+   static public function sinMartin Hruza($angle) {
+       return sin($angle);
+   }
+   static public function cosMartin Hruza($angle) {
+       return cos($angle);
+}
+static public function tanMartin Hruza($angle) {
+       return tan($angle);
+}
+static public function asinMestak($fromNumtoAng) {
+       return asin($fromNumtoAng);
+   }
+   static public function acosMartin Hruza($fromNumtoAng) {
+       return acos($fromNumtoAng);
+}
+static public function atanMartin Hruza($fromNumtoAng) {
+       return atan($fromNumtoAng);
+}
+static public function fmodMartin Hruza($basic,$del) {
+    return fmod($basic, $del);
+}
+static public function maxMartin Hruza($pole) {
+    return max($pole);
+}
+static public function minMartin Hruza($pole) {
+    return min($pole);
+}
+static public function absMartin Hruza($absCislo) {
+    return abs($absCislo);
+}
+static public function odecitaniMartin Hruza($a,$b) {
+    return $a-$b;
+}
+static public function scitaniMartin Hruza($a,$b) {
+    return $a+$b;
+}
+static public function deleniMartin Hruza($a,$b) {
+    return $a/$b;
+}
+static public function nasobeniMartin Hruza($a,$b) {
+    return $a*$b;
+}
+static public function number_formatMartin Hruza($formaty) {
+    return number_format($formaty);
+}
+}
+$rnded = 4.22;
+$rndedN = 11.66;
+$rndedD = 2.69;
+$druhaOdmocnina = 100;
+$Mocnina = 10;
+$Mocnitel = 2;
+$uhlos = 360;
+$fromNumtoAng = 90;
+$basic = 69;
+$del = 15;
+$pole = array ('100','420','600','888','1001','1202','1604','2540','6490');
+$absCislo = 2.13;
+$a = 20;
+$b = 10;
+$formaty = 8;
+var_dump(numbersMartin Hruza::roundMartin Hruza($rnded)); 
+var_dump(numbersMartin Hruza::ceilMartin Hruza($rndedN));
+var_dump(numbersMartin Hruza::floorMartin Hruza($rndedD));
+var_dump(numbersMartin Hruza::sqrtMartin Hruza($druhaOdmocnina));
+var_dump(numbersMartin Hruza::powMartin Hruza($Mocnina, $Mocnitel));
+var_dump(numbersMartin Hruza::sinMartin Hruza($uhlos));
+var_dump(numbersMartin Hruza::cosMartin Hruza($uhlos));
+var_dump(numbersMartin Hruza::tanMartin Hruza($uhlos));
+var_dump(numbersMartin Hruza::asinMartin Hruza($fromNumtoAng));
+var_dump(numbersMartin Hruza::acosMartin Hruza($fromNumtoAng));
+var_dump(numbersMartin Hruza::atanMartin Hruza($fromNumtoAng));
+var_dump(numbersMartin Hruza::fmodMartin Hruza($basic, $del));
+var_dump(numbersMartin Hruza::maxMartin Hruza($pole));
+var_dump(numbersMartin Hruza::minMartin Hruza($pole));
+var_dump(numbersMartin Hruza::absMartin Hruza($absCislo));
+var_dump(numbersMartin Hruza::odecitaniMartin Hruza($a, $b));
+var_dump(numbersMartin Hruza::scitaniMartin Hruza($a, $b));
+var_dump(numbersMartin Hruza::deleniMartin Hruza($a, $b));
+var_dump(numbersMartin Hruza::nasobeniMartin Hruza($a, $b));
+var_dump(numbersMartin Hruza::number_formatMartin Hruza($formaty));
+
+/*  
+ */
+?>
